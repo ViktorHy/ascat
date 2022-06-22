@@ -103,10 +103,10 @@ ascat.predictGermlineGenotypes = function(ASCATobj, platform = "AffySNP6", img.d
     #proportionHetero = 0.24
     #proportionOpen = 0.01
     #segmentLength = 60
-   } else if (platform=="Own") {
+   } else if (platform=="Own_GMS") {
     maxHomozygous = 0.01
-    proportionHetero = 0.6
-    proportionHomo = 0.39
+    proportionHetero = 0.85
+    proportionHomo = 0.05
     proportionOpen = 0.1
     segmentLength = 10
   } else if (platform=="Illumina2.5M") {
